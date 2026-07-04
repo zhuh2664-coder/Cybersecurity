@@ -1,0 +1,23 @@
+# Cybersecurity 仓库只保留 Python 脚本
+# 所有文档、数据、网页、PDF 等都留在本地，不进入 GitHub
+
+# 默认忽略所有文件和目录
+*
+
+# 但保留目录结构，以便递归找到 .py 文件
+!*/
+
+# 保留 .gitignore 本身
+!.gitignore
+
+# 保留 Python 脚本
+!*.py
+
+# 系统/缓存文件
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+__pycache__/
+*.pyc
+*.pyo
